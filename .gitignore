@@ -1,0 +1,40 @@
+# Checkpoints / pretrained weights
+ckpts/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Large / external codebase
+mmdetection3d/
+
+# Experiment outputs
+results/
+work_dirs/
+outputs/
+logs/
+
+# Event visualization outputs
+event_*/
+
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build / compiled files
+build/
+dist/
+*.so
+*.o
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
